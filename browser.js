@@ -54,7 +54,7 @@ window.onload = () => {
       localStorage.setItem("browser", `${navigator.userAgentData.brands[2].brand}`)
       localStorage.setItem("internetSpeed", `${navigator.connection.downlink} Mbps`)
       // localStorage.setItem("location", `${location.coords.latitude}, ${location.coords.longitude}`)
-      // alert(`${localStorage.ip},${localStorage.memory},${localStorage.browser},${localStorage.internetSpeed}`)
+      alert(`${localStorage.ip},${localStorage.memory},${localStorage.browser},${localStorage.internetSpeed}`)
 }
 
 // window.onbeforeunload = alert('are you sure?');
